@@ -1,6 +1,9 @@
 {
     "pub_sub_topic_name" : "workshop_practical",
-    "data_file_name" : "employees.csv",
-    "bigquery_table_id"  : "sadaindia-tvm-poc-de.test_csv.test_data_pradeep"
+    "data_file_name" : "../data/employees.csv",
+    "bigquery_table_id"  : "sadaindia-tvm-poc-de.test_csv.test_data_pradeep",
+    "gcp_project_id" : "sadaindia-tvm-poc-de",
+    "collection_name" : "employees_data",
+    "json_data_file_path": "../data/employees.json"
 }
   

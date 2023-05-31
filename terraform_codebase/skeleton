@@ -1,0 +1,27 @@
+Only permit to view the instance creation page and SSH into the instances and not spin up or delete the instances ( Check if allowing to specific instance can be configured ) ( Check if User role is enough for this )
+Object reader/writer role for GCS to the user as well as the instance S.A
+Allow to create table in 1 common dataset and query it. Also to subscribe the Pub/Sub topic
+Only allow to deploy 1 CF with lowest configuration
+Don't allow to create a Cloud SQL instance, only create 1 instance with read/write permission to everyone
+Allow to create individual pub/sub topic and subscribe BQ table to it
+Permission to read/write Firestore Kind and not create any other individually
+Looker Studio ?
+
+
+
+"roles/compute.viewer"
+"roles/storage.objectViewer"
+"roles/bigquery.dataViewer"
+"roles/bigquery.jobUser"
+"roles/cloudfunctions.dev"
+"roles/cloudsql.client"
+"roles/pubsub.editor"
+"roles/firestore.documentViewer"
+
+
+Add service account creation resource in compute engine for each compute engine to have its seperate service account with minimal permissions
+
+
+
+Storage Bucket, BigQuery dataset and table for CF script
+Pub/Sub Schema, Topic with the created schema and subscription with destination as BQ and use the topic schema along with write metadat enabled

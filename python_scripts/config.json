@@ -4,6 +4,7 @@
     "bigquery_table_id"  : "sadaindia-tvm-poc-de.test_csv.test_data_pradeep",
     "gcp_project_id" : "sadaindia-tvm-poc-de",
     "collection_name" : "employees_data",
-    "json_data_file_path": "../data/employees.json"
+    "json_data_file_path": "../data/employees.json",
+    "sql_data_csv": "../data/employees.csv",
+    "sql_table_name": "Employees"
 }
-  
